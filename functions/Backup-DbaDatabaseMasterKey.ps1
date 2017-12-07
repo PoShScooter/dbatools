@@ -55,7 +55,7 @@ Filename     : E:\MSSQL13.SQL2016\MSSQL\Backup\server1$sql2016-master-2017061416
 Status       : Success
 
 .EXAMPLE
-Backup-DbaDatabaseMasterKey -SqlInstance sql2016 -Database db1 -Path \\nas\sqlbackups\keys
+Backup-DbaDatabaseMasterKey -SqlInstance Server1 -Database db1 -Path \\nas\sqlbackups\keys
 
 Logs into sql2016 with Windows credentials then backs up db1's keys to the \\nas\sqlbackups\keys directory.
 
